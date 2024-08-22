@@ -1,0 +1,17 @@
+<div class="products-listing flex border border-gray rounded p-4 m-2 gap-4 items-center justify-between w-full">
+    <div class="image-container">
+        <img src="{{%IMAGE%}}" class="max-w-48"/>
+    </div>
+    <div class="product-info">
+        <h2 class="font-bold mb-2">{{%TITLE%}}</h2>
+        <p class="text-sm">{{%DESCRIPTION%}}</p>
+        <p class="text-sm">Price: <span class="font-medium">INR {{%PRICE%}}</span></p>
+        <p class="text-sm">Discount: {{%DISCOUNT%}} %</p>
+        <p class="text-sm">Category: {{%CATEGORY%}}</p>
+        <p class="text-sm">Brand: {{%BRAND%}}</p>
+        <p class="text-sm">Rating: {{%RATING%}} stars</p>
+    </div>
+    <div class="flex">
+        <a href="products?id={{%ID%}}" class="bg-blue-400 px-4 py-2 rounded block">Show Details</a>
+    </div>
+</div>

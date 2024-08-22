@@ -1,0 +1,15 @@
+{
+  "name": "node-basics",
+  "version": "1.0.0",
+  "description": "A repo with basics of node js",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Rohit Yadav",
+  "license": "ISC"
+}
